@@ -1,0 +1,167 @@
+body{
+    /* background-color: aqua; */
+    margin: 0;
+    height: 100vh;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf5;
+    margin: 80px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 50px;
+    width: 350px;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.login-form{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: flex;
+    margin-top: 10px;
+}
+
+label span{
+    color: red;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #eeebebbc;
+}
+
+.passwordField{
+    position: relative;
+    width: 100%;
+}
+
+.passwordField input{
+    
+}
+
+.btn{
+    width: 100%;
+    padding: 7px;
+    /* border: none; */
+    margin: 5px 0;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn.masuk{
+    color: white;
+    background-color: #3ECF4C;
+    border: none;
+}
+
+.btn.daftar{
+    color: #3ECF4C;
+    background-color: #E2FCD9CC;
+    border: none;
+}
+
+.btn.google{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 5px;
+    border: 1px solid #eee;
+    
+}
+
+.forgot{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.middle{
+    display: flex;
+    height: 25px;
+}
+
+.middle .garis-1{
+    margin-right: 5px;
+    margin-top: 8px;
+    width: 45%;
+    height: 1px;
+    background-color: rgb(228, 228, 228);
+}
+
+.middle .garis-2{
+    margin-left: 5px;
+    margin-top: 8px;
+    width: 45%;
+    height: 1px;
+    background-color: rgb(228, 228, 228);
+}
+
+.divider{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    line-height:  0.1em;
+}
+
+/* 📱 Mobile (max 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        align-items: center;
+    }
+
+    header img {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .login-form h2 {
+        font-size: 18px;
+    }
+}
