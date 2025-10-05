@@ -66,7 +66,25 @@ input{
 }
 
 .passwordField input{
-    
+    width: 100%;
+    font-size: 14px;
+    border: 0.5px solid #eeebebbc;
+}
+
+.passwordField .togglePassword{
+    position: absolute;
+    left: 335px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.passwordField .togglePassword img{
+    width: 20px;
+    height: 20px;
 }
 
 .btn{
