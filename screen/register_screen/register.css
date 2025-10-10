@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf5;
+    margin: 80px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #fffdf5;
+    display: block;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,0.1);
+}
+
+header img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 50px;
+    width: 350px;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.login-form{
+    text-align: center;
+}
+
+label{
+    display: flex;
+    margin-top: 10px
+}
+
+label span{
+    color: red;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #eeebebbc;
+}
+
+.phone.group{
+    display: flex;
+    
+}
+
+.passwordField{
+    position: relative;
+    width: 100%;
+}
+
+.passwordField input{
+    width: 100%;
+    font-size: 14px;
+    border: 0.5px solid #eeebebbc;
+}
+
+.passwordField .togglePassword{
+    position: absolute;
+    left: 335px;
+    top : 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.passwordField .togglePassword img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn{
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn.masuk{
+    color: white;
+    background-color: #3ECF4C;
+    border: none;
+}
+
+.btn.daftar{
+    color: #3ECF4C;
+    background-color: #E2FCD9CC;
+    border: none;
+}
+
+.btn.google{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}

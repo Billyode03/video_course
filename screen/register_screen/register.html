@@ -7,48 +7,86 @@
     <link rel="stylesheet" href="register.css">
 </head>
 <body class="body">
-    <header>
-        <img src="../../images/Frame 3.png" alt="">
+    <header class="header">
+        <div class=""></div>
+        <img src="../../images/Frame 3.png" alt="" width="170px">
     </header>
     <main>
-        <section>
-            <form action="">
+        <section class="container">
+            <form class="register-form" action="">
                 <h2> Pendaftaran Akun </h2>
                 <p>Yuk, daftarkkan akunmu sekarang Juga!</p>
 
                 <!-- Nama -->
-                <div>
-                    <label for=""> Nama Lengkap <span>*</span> </label>
-                    <input type="text">
+                <div class="nameField">
+                    <label for="name"> Nama Lengkap <span>*</span> </label>
+                    <input type="text" id="name">
                 </div>
 
                 <!-- Email -->
-                <div>
-                    <label for=""> Email <span>*</span> </label>
-                    <input type="text">
-                </div>
-
-                <!-- Jenis Kelamin -->
-                <div>
-                    <label for="gender"> Jenis Kelamin <span>*</span> </label>
-                    <select id="gender">
-                        <option value="">Pilih Jenis kelamin</option>
-                        <option value="Pria">Pria</option>
-                        <option value="Wanta">Wanita</option>
-                    </select>
+                <div class="emailField">
+                    <label for="email"> E-mail <span>*</span> </label>
+                    <input type="text" id="email">
                 </div>
 
                 <!-- Nomor HP -->
-                <div class="Phone - Group">
-                    <label for="phone"></label>
-                    <div>
-                        <img src="" alt="">
-                        <select name="" id=""></select>
-                    </div>
-                    <div>
-                        <input type="text">
+                <div>
+                    <label for="phone">Nomor HP<span>*</span></label>
+                    <div class="phone group">
+                        <div>
+                            <img src="../../icon/indoFlag.png" alt="">
+                            <select name="" id="">
+                                <option value="">+62</option>
+                                <option value="">+03</option>
+                                <option value="">+88</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text">
+                        </div>
                     </div>
                 </div>
+
+                <!--  Kata Sandi -->
+                <div class="">
+                    <label for="kata-sandi"> Kata Sandi <span>*</span></label>
+                        <div class="passwordField">
+                            <input type="text">
+                            <button class="togglePassword">
+                                <img src="../../icon/mdi_eye-off.png" alt="">
+                            </button>
+                        </div>
+                </div>
+
+                <!-- Konfir Kata Sandi -->
+                <div>
+                    <label class="konfir-kata-sandi" for=""><span>*</span></label>
+                    <div class="passwordField">
+                        <input type="text">
+                        <button class="togglePassword">
+                            <img src="../../icon/mdi_eye-off.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Button ForgetPass -->
+                <a class="forgot" href="">Lupa Password?</a>
+
+                <!-- Button Daftar -->
+                <button class="btn daftar" type="submit"> Daftar </button>
+
+                <!-- Button  Masuk -->
+                <button class="btn masuk" type="submit"> Masuk </button>
+
+                <div class="middle">
+                    <div class="garis-1"></div>
+                    <span> atau </span>
+                    <div class="garis-2"></div>
+                </div>
+
+                <!-- Button Google -->
+                <button class="btn google" type="button"><img class="icon" src="../../icon/logos_google-icon.png" alt="" width="15px"> Masuk dengan Google </button>
+
             </form>
         </section>
     </main>
