@@ -74,7 +74,7 @@ input{
     outline: none;
     padding: 8px 10px;
     font-size: 14px;
-    border: 0.5px solid #eeebebbc;
+    background-color: #a38282;
 }
 
 .flag img{
@@ -87,12 +87,12 @@ input{
     border-radius: 5px 0px 0px 5px ;
 }
 
-.country-select{ 
+.country-select{
     width: 70px;
     margin-right: 24px; 
+    background-color: rebeccapurple;
     padding: 5px 15px  0px 0px;
     border-radius: 0px 8px 8px 0px;
-    border: 0.5px solid #eeebebbc;
 }
 
 .country-select select{

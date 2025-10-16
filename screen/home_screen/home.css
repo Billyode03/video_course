@@ -1,0 +1,33 @@
+.body{
+    margin: 80px;
+    height: 100vh;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf5;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #fffdf5;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .avatar-category{
+    background-color: aqua;
+    display: flex;
+    margin-right: 50px;
+}
+
+.hero img{
+    color: antiquewhite;
+    width: 1200px;
+    height: 400px;
+}
+
+
+
+.avatar-category .category{
+    margin-right: 20px;
+}
